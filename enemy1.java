@@ -8,12 +8,29 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class enemy1 extends Actor
 {
-    /**
-     * Act - do whatever the enemy1 wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    public int direction = 1; //1 = move left, 2 = move right
+    public GreenfootImage img1;
+    public GreenfootImage img2;
+    
+    
+    public enemy1()
+    {
+        img1 = getImage();
+        img2 = new GreenfootImage("enemy1-2.gif");
+    }
     public void act() 
     {
-        // Add your action code here.
-    }    
+        move();
+       
+    }
+    public void move()
+    {
+        if (getImage() == img1) {
+            setImage(img2);
+        }
+        else {
+            setImage(img1);
+        }
+        
+    }
 }
