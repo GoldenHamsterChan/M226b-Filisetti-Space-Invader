@@ -3,17 +3,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * Write a description of class MyWorld here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author SaF
+ * @version 1.0
  */
 public class Space extends World
 {
-
+public int shot = 1;
     /**
-     * Constructor for objects of class MyWorld.
      * 
      */
-    public Space() /** Creates the Space and the other Objects */
+    public Space()
     {    
         super(100, 100, 5); 
         addObject(new Player(), 50, 90);
@@ -22,21 +21,35 @@ public class Space extends World
     public void populate()
     {
         /** Erstellt 5 Reihen an Gegnern */
-        enemy1[] enemies1 = new enemy1[10];
+        Enemy1[] enemies1 = new Enemy1[10];
         for ( int i = 0; i <10; i++ ) {
-            enemies1[i] = new enemy1();
+            enemies1[i] = new Enemy1();
             addObject(enemies1[i], (i*5)+5, 20);
         }
         
-        enemy1[] enemies2 = new enemy1[20];
+        Enemy1[] enemies2 = new Enemy1[20];
         for ( int i = 0; i <10; i++ ) {
-            enemies1[i] = new enemy1();
+            enemies1[i] = new Enemy1();
             addObject(enemies1[i], (i*5)+5, 15);
         }
-        enemy2[] enemies4 = new enemy2[20];
+        Enemy2[] enemies4 = new Enemy2[20];
         for ( int i = 0; i <10; i++ ) {
-            enemies1[i] = new enemy2();
+            enemies1[i] = new Enemy2();
             addObject(enemies1[i], (i*5)+5, 10);
         }
     }
+    
+        public boolean CanShoot()
+    {
+        if (shot == 1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+        public void ShootSet(int arg)
+    {
+        shot = arg;
+    }
+    
 }
