@@ -1,10 +1,11 @@
 #BlueJ class context
 comment0.target=Player
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Player\ here.\r\n\ \r\n\ @author\ SaF\r\n\ @version\ 1.0\r\n
+comment0.text=\r\n\ Player\ Klasse,\ die\ Hauptfigure\ die\ der\ Spieler\ benutzt.\r\n\ Player\ Class,\ Maincharacter\ that\ the\ player\ uses.\r\n\ \r\n\ @author\ Sandro\ Filisetti\r\n\ @version\ V4.0\r\n
 comment1.params=
 comment1.target=void\ act()
 comment2.params=
-comment2.target=void\ KeyPress()
+comment2.target=void\ processKeys()
+comment2.text=\r\n\ Hier\ werden\ die\ Tasteneingaben\ verarbeitet\ ---\ Here\ the\ Keyinputs\ get\ processed\r\n
 comment3.params=
 comment3.target=void\ destroy()
 numComments=4

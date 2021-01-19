@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Playerdie
+comment0.text=\r\n\ die\ Playerdie\ Klasse\ wird\ genutzt\ um\ zu\ zeigen\ was\ passiert\ wenn\ der\ Spieler\ getroffen\ wird.\r\n\ The\ Playerdie\ Class\ will\ be\ used\ to\ show\ what\ happens\ if\ the\ Player\ gets\ hit\r\n\ \r\n\ @author\ Sandro\ Filisetti\ \r\n\ @version\ V4.0\r\n
+comment1.params=
+comment1.target=Playerdie()
+comment2.params=
+comment2.target=void\ act()
+numComments=3

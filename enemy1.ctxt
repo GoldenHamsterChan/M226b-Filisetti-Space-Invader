@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Enemy1
-comment0.text=\r\n\ @author\ SaF\r\n\ @version\ 1.0\r\n
+comment0.text=\r\n\ Basis\ der\ Enemy\ Klasse,\ hat\ Bewegungen,\ schiessen\ und\ weiters\ Drinnen\r\n\ Base\ of\ the\ Enemy\ Class,\ includes\ but\ isn't\ limited\ to\ Movement\ and\ shooting\r\n\ @author\ Sandro\ Filisetti\r\n\ @version\ V4.0\r\n
 comment1.params=
 comment1.target=Enemy1()
 comment2.params=

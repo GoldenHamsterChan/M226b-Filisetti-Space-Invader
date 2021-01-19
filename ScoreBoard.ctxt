@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ScoreBoard
+comment0.text=\r\n\ Die\ ScoreBoard\ Klasse\ wird\ benutzt\ um\ den\ Score\ anzuzeigen,\ man\ bekommt\ Score\ indem\ man\ \r\n\ Gegner\ t\u00F6tet\r\n\ The\ ScoreBoard\ class\ will\ be\ used\ to\ display\ the\ score,\ you\ get\ score\ from\ killing\ enemies\r\n\ \r\n\ @author\ Sandro\ Filisetti\r\n\ @version\ V4.0\r\n
+comment1.params=
+comment1.target=ScoreBoard()
+comment2.params=score
+comment2.target=ScoreBoard(int)
+comment2.text=\r\n\ ScoreBoard\ mit\ Endresultat\ ---\ Create\ a\ score\ board\ for\ the\ final\ result.\r\n
+comment3.params=title\ prefix\ score
+comment3.target=void\ makeImage(java.lang.String,\ java.lang.String,\ int)
+comment3.text=\r\n\ Macht\ das\ Scoreboard\ Bild/Screen\ ---\ Displays\ the\ Scoreboard\ image/Screen\r\n
+numComments=4

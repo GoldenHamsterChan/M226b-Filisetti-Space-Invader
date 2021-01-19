@@ -1,14 +1,10 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+Space Invader Spiel
+Für Modul M226b.
+Sandro F.
+BI17b
 
-PROJECT TITLE: Spaceinvader
-PURPOSE OF PROJECT: Projekt fÃ¼r Schule, Project for School
-VERSION or DATE: 1.0
-HOW TO START THIS PROJECT: Um das Spiel zu starten, auf "Run" klicken. To run this
-just press on "run"
-AUTHORS: Sandro Filisetti
-USER INSTRUCTIONS: Bewegen mit Linker und Rechten Pfeiltasten
-Move with left and right arrowkeys
+-------------------------
+Space Invader Game
+For Modul M226b
+Sandro F.
+BI17b

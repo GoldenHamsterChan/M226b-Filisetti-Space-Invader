@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Playerbullet
+comment0.text=\r\n\ Playerbullet,\ gibt\ an\ was\ die\ Klasse\ macht.\r\n\ Playerbullet,\ here\ you\ can\ see\ what\ this\ class\ does\r\n\ \r\n\ @author\ Sandro\ Filisetti\r\n\ @version\ V4.0\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ destroy()
+numComments=3

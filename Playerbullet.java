@@ -1,16 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Bullet here.
+ * Playerbullet, gibt an was die Klasse macht.
+ * Playerbullet, here you can see what this class does
  * 
- * @author SaF
- * @version 1.0
+ * @author Sandro Filisetti
+ * @version V4.0
  */
-public class Bullet extends Actor
+public class Playerbullet  extends Actor
 {
     /**
-     * 
+     *
      */
+    private Player player;
+    
     public void act() 
     {
        int y = getY();
